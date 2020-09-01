@@ -15,6 +15,7 @@ int main(void) {
 
   double fahrV = (1.8* (doubleCel) + 32);
 
-  printf("%f° in Celsius is equivalent to %f° Fahrenheit.", doubleCel, fahrV);
+  printf("%f° in Celsius is equivalent to %f° Fahrenheit.\n", doubleCel, fahrV);
+
   return 0;
 }
